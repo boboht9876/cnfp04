@@ -8,5 +8,6 @@ terraform {
 }
  provider "aws" {
   profile = "master-programmatic-admin"
+  region = "ap-northeast-1"
  }
- 
+
