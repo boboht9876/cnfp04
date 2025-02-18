@@ -6,4 +6,7 @@ terraform {
     }
   }
 }
-
+ provider "aws" {
+  profile = "master-programmatic-admin"
+ }
+ 
